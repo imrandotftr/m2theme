@@ -1,0 +1,19 @@
+{
+	"name": "custom/design",
+	"description": "Magento 2 Custom Theme Developed by Imran Ansari",
+	"require": {
+		"php": "~7.2.0||~7.3.0",
+		"magento/framework": "*",
+		"magento/theme-frontend-luma": "*"
+	},
+	"type": "magento2-theme",
+	"license": [
+		"OSL-3.0",
+		"AFL-3.0"
+	],
+	"autoload": {
+		"files": [
+			"registration.php"
+		]
+	}
+}
